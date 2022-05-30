@@ -54,3 +54,20 @@ Hold left click and move your mouse over those and then press X to delete them b
 Now go to the top left and click file>import>Wavefront (.obj) and then find your exported .obj model from roblox studio
 it should now look like this!
 ![image](https://user-images.githubusercontent.com/77900806/170985130-e864a408-4308-4947-ab2d-ff3cf3e45e1b.png)
+
+If there is a camera fog or camera clipping press N and then go to view, click on end and put any high number like 99999999
+
+Now you need to import the startgrid.obj to compare size and it now should look like this
+![image](https://user-images.githubusercontent.com/77900806/170985950-3e2a068d-3d76-4909-89be-6ffd72c1b75f.png)
+
+Click on the model you imported before and there should be stuff like position, rotation and scale size
+set the scale size to numbers between 12-15, now you got this!
+![image](https://user-images.githubusercontent.com/77900806/170986503-1823d068-a5b4-47e0-8437-9e002c3298cb.png)
+
+Before we export from blender, you can delete the startgrid model since we don't need that anymore in blender
+now press A and then press Ctrl + A and then press All transform, this will select everything and transform the model scale size back to 1 but it will keep the actual model size that you changed (you have to transform all otherwise the game will render the model WAY too big!)
+
+Now go to file>Export>Collada (.dae) BEFORE YOU EXPORT! you need to set the position model to the following:
+![image](https://user-images.githubusercontent.com/77900806/170987539-ab221a60-e9c4-45e6-9cf5-2d7f0bcf9080.png)
+
+If you press on any other position setting the game will render the model on it's side or upside down, set the exact setting in the image!
