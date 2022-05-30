@@ -71,3 +71,35 @@ Now go to file>Export>Collada (.dae) BEFORE YOU EXPORT! you need to set the posi
 ![image](https://user-images.githubusercontent.com/77900806/170987539-ab221a60-e9c4-45e6-9cf5-2d7f0bcf9080.png)
 
 If you press on any other position setting the game will render the model on it's side or upside down, set the exact setting in the image!
+
+Now you can export as .dae 
+
+Now open track studio and go to file>new>custom track you should get a window like this one
+![image](https://user-images.githubusercontent.com/77900806/170988539-69217753-11c9-4260-99a5-40b170f8cecc.png)
+
+If you are using the wiiu version:
+![image](https://user-images.githubusercontent.com/77900806/170988755-120e4600-8304-4291-8296-f9f95b0fdace.png)
+ 
+If you are using the switch version:
+![image](https://user-images.githubusercontent.com/77900806/170988874-cb533949-b008-4c18-9859-b3e7e5e641c9.png)
+
+Click ok if you toggled that setting depending which console you're using now you are in the main program
+go to collision editor and on the left size theres a course_kcl.szs left click and then move down a bit and hit replace and replace it with your track model .dae file
+another window is going to open and it will have a few options on what type of collision it's going to set, you need to click on Materials by Meshes, since this is just a example track click on road1 and just set it to something like asphalt now it should look like this
+![image](https://user-images.githubusercontent.com/77900806/170990284-bc184b4c-5936-4e98-876c-2e0acd083b52.png)
+
+Move over to model editor and do the same from collision editor, but this time move to the model directory and do the same and now it should be like this on both model and map editor
+![image](https://user-images.githubusercontent.com/77900806/170990917-8be3ddfb-3150-41a7-956c-6162a7a93811.png)
+![image](https://user-images.githubusercontent.com/77900806/170991075-5a59b730-598d-4159-8ef4-41bb58a3af41.png)
+
+You might need to reposition the startgrid point as so here:
+![image](https://user-images.githubusercontent.com/77900806/170991351-2ce1aa11-e6d8-4f03-99ce-1e93407a73f9.png)
+
+Now click on file>save for map, model and collision, find your files in the directory you saved them in and copy them to your modpack or an emulator modpack/graphics pack
+i am going to import this track to Gu_FirstCircuit (Mario kart Stadium)
+
+Now for the result...
+https://youtu.be/f3T-FSgr3VU
+
+Taadah!!
+Now you know how to make custom tracks, i hope this helps :D
